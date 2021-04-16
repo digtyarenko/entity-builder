@@ -1,0 +1,23 @@
+{
+  "name": "digtyarenko/entity-builder",
+  "description": "A library to convert any results to entities",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "digtyarenko",
+      "email": "vlad.digtyarenko@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Qodelab\\EntityBuilder\\": "src"
+    }
+  }
+}
