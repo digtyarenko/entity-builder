@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Qodelab\\EntityBuilder\\": "src"
+      "EntityBuilder\\": "src"
     }
   }
 }

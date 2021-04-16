@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Qodelab\EntityBuilder\Common;
+namespace EntityBuilder\Common;
 
 /**
  * Class Mode
- * @package Qodelab\EntityBuilder\Common
+ * @package EntityBuilder\Common
  */
 abstract class Mode
 {

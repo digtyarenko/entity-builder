@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace Qodelab\EntityBuilder;
+namespace EntityBuilder;
 
-use Qodelab\EntityBuilder\Common\Mode;
-use Qodelab\EntityBuilder\Exception\InvalidEntityClassException;
-use Qodelab\EntityBuilder\Utils\Utils;
+use EntityBuilder\Common\Mode;
+use EntityBuilder\Exception\InvalidEntityClassException;
+use EntityBuilder\Utils\Utils;
 
 /**
  * Class EntityBuilder
- * @package Qodelab\EntityBuilder
+ * @package EntityBuilder
  */
 class EntityBuilder
 {

@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Qodelab\EntityBuilder\Utils;
+namespace EntityBuilder\Utils;
 
 /**
  * Class Utils
- * @package Qodelab\EntityBuilder\Utils
+ * @package EntityBuilder\Utils
  */
 class Utils
 {
