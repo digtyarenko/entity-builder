@@ -147,9 +147,9 @@ class EntityBuilder
      * @param object $entity
      * @param string $propertyName
      * @param string $targetEntityClass
-     * @param array $value
+     * @param $value
      */
-    private function fillProperty(object $entity, string $propertyName, string $targetEntityClass, array $value): void
+    private function fillProperty(object $entity, string $propertyName, string $targetEntityClass, $value): void
     {
         if (!empty($this->customAction)) {
             $customAction = $this->getCustomAction();
