@@ -55,11 +55,11 @@ class EntityBuilder
 
     /**
      * @param string $targetEntityClass
-     * @param array $oneEntity
+     * @param $oneEntity
      * @return mixed|null
      * @throws InvalidEntityClassException
      */
-    public function buildOneEntity(string $targetEntityClass, array $oneEntity)
+    public function buildOneEntity(string $targetEntityClass, $oneEntity)
     {
         if (!$this->isValidEntityClass($targetEntityClass)) {
             throw new InvalidEntityClassException("Invalid entity '{$targetEntityClass}'");
@@ -137,6 +137,10 @@ class EntityBuilder
         return $result;
     }
 
+    /**
+     * @param \Closure $customAction
+     * @return $this
+     */
     public function customFillProperty(\Closure $customAction): EntityBuilder
     {
         $this->customAction = $customAction;
